@@ -51,6 +51,7 @@ export default function Login({ setToken }) {
         required
       />
       <button type="submit">Login</button>
+      <button type="button" onClick={() => navigate("/register")}>Register</button>
       <p>{message}</p>
     </form>
   );
