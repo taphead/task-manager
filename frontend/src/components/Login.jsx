@@ -21,7 +21,6 @@ export default function Login({ setToken }) {
         password,
       });
 
-      //   setToken(res.data.token)
       login(res.data.token);
       setMessage("Login Successful!");
       navigate("/tasks");     
